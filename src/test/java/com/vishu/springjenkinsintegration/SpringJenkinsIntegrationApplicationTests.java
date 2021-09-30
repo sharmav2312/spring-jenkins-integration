@@ -10,13 +10,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class SpringJenkinsIntegrationApplicationTests {
-	
-	public static Logger logger = LoggerFactory.getLogger(SpringJenkinsIntegrationApplicationTests.class);
 
 	@Test
 	void contextLoads() {
-		logger.info("test class executing...");
-		assertEquals(true, true);
+		
 	}
 
 }
